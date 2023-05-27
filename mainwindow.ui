@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: #2F2F2F;</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="styleSheet">
+    <string notr="true">background-color: #2F2F2F;</string>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="1" column="0">
+     <widget class="QPushButton" name="pushButton">
+      <property name="minimumSize">
+       <size>
+        <width>0</width>
+        <height>70</height>
+       </size>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QPushButton {
+                         font-family: Montserrat;
+                         font-size: 12pt;
+                         font-weight: bold;
+                         color: white;
+                         background-color: #2F2F2F;
+                         border-style: outset;
+                        border-width: 2px;
+                         border-radius: 5px;
+                         border-color: #1F1F1F;
+                         padding: 6px;
+                         }
+                         QPushButton:hover {
+                         background-color: #3F3F3F;
+                         }
+                         QPushButton:pressed {
+                         background-color: #1F1F1F;
+                         }</string>
+      </property>
+      <property name="text">
+       <string>Отсканировать документ</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label">
+      <property name="styleSheet">
+       <string notr="true">
+    
+QLabel {
+           font-family: Montserrat;
+        font-size: 100pt;
+        font-weight: bold;
+        color: white;
+        background-color: #2F2F2F;
+        border-style: outset;
+        border-width: 2px;
+        border-radius: 5px;
+        border-color: #1F1F1F;
+        padding: 6px;
+        text-align: center;
+        }
+
+        QLabel::before {
+            color: red;
+            content: &quot;IQ&quot;;
+        }</string>
+      </property>
+      <property name="text">
+       <string>DocScanIQ</string>
+      </property>
+      <property name="alignment">
+       <set>Qt::AlignCenter</set>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
